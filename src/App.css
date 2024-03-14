@@ -1,9 +1,25 @@
 /* Add styling for your page here */
 
 .App {
+   padding: 0 0.5rem 0;
+   display: flex;
+}
 
+.bakery-data {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body {
+    display: flex;
 }
 
 .BakeryItem {
-  
+
+}
+
+.cart {
+    min-width: 20rem;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
